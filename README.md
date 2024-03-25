@@ -9,6 +9,5 @@
   
   
 - 🌱 I’m currently improving: React.js, learning: Typescript, Next.js, Astro.
-- 💪 I'm currently working in a startup playing around a bit with Ruby, Django and with React.
 - 🔥 I'm currently rebuilding my portfolio & keep studying in the field.
 - 📫 You can reach me out via email if you like to: cassisafabio97@gmail.com
