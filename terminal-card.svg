@@ -7,7 +7,6 @@
       .dot-yellow { fill: #ffbd2e; }
       .dot-green { fill: #27c93f; }
       .term-title { fill: #8b949e; font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'Menlo', monospace; font-size: 12px; }
-      .ascii { fill: #58a6ff; font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'Menlo', monospace; font-size: 11.5px; font-weight: 700; }
       .label { fill: #58a6ff; font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'Menlo', monospace; font-size: 12px; font-weight: 700; }
       .value { fill: #c9d1d9; font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'Menlo', monospace; font-size: 12px; }
       .user { fill: #7ee787; font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'Menlo', monospace; font-size: 12px; font-weight: 700; }
@@ -16,6 +15,47 @@
       .command { fill: #f0f6fc; font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'Menlo', monospace; font-size: 12px; }
       .cursor { fill: #f0f6fc; font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'Menlo', monospace; font-size: 12px; }
       .dim { fill: #484f58; font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'Menlo', monospace; font-size: 12px; }
+
+      /* DAGAS ASCII color cycle through the palette */
+      @keyframes color-cycle {
+        0%, 100%  { fill: #58a6ff; }
+        14%       { fill: #ff5f56; }
+        28%       { fill: #27c93f; }
+        42%       { fill: #ffbd2e; }
+        57%       { fill: #bc8cff; }
+        71%       { fill: #39c5cf; }
+        85%       { fill: #c9d1d9; }
+      }
+
+      .ascii {
+        font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'Menlo', monospace;
+        font-size: 11.5px;
+        font-weight: 700;
+        animation: color-cycle 16s ease-in-out infinite;
+      }
+
+      /* Blinking cursor */
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .blink { animation: blink 1.2s step-end infinite; }
+
+      /* Subtle glow on active palette color */
+      @keyframes glow-1 { 0%, 10%, 100% { opacity: 1; } 14% { opacity: 1; filter: brightness(1.5); } 18% { opacity: 1; } }
+      @keyframes glow-2 { 0%, 24%, 100% { opacity: 1; } 28% { opacity: 1; filter: brightness(1.5); } 32% { opacity: 1; } }
+      @keyframes glow-3 { 0%, 38%, 100% { opacity: 1; } 42% { opacity: 1; filter: brightness(1.5); } 46% { opacity: 1; } }
+      @keyframes glow-4 { 0%, 53%, 100% { opacity: 1; } 57% { opacity: 1; filter: brightness(1.5); } 61% { opacity: 1; } }
+      @keyframes glow-5 { 0%, 67%, 100% { opacity: 1; } 71% { opacity: 1; filter: brightness(1.5); } 75% { opacity: 1; } }
+      @keyframes glow-6 { 0%, 81%, 100% { opacity: 1; } 85% { opacity: 1; filter: brightness(1.5); } 89% { opacity: 1; } }
+
+      .pal-1 { animation: glow-1 16s ease-in-out infinite; }
+      .pal-2 { animation: glow-2 16s ease-in-out infinite; }
+      .pal-3 { animation: glow-3 16s ease-in-out infinite; }
+      .pal-4 { animation: glow-4 16s ease-in-out infinite; }
+      .pal-5 { animation: glow-5 16s ease-in-out infinite; }
+      .pal-6 { animation: glow-6 16s ease-in-out infinite; }
+
       .palette-0 { fill: #0d1117; }
       .palette-1 { fill: #ff5f56; }
       .palette-2 { fill: #27c93f; }
@@ -24,8 +64,6 @@
       .palette-5 { fill: #bc8cff; }
       .palette-6 { fill: #39c5cf; }
       .palette-7 { fill: #c9d1d9; }
-      @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0; } }
-      .blink { animation: blink 1.2s step-end infinite; }
     </style>
   </defs>
 
@@ -48,7 +86,7 @@
   <text class="prompt" x="20" y="64">❯</text>
   <text class="command" x="36" y="64">neofetch</text>
 
-  <!-- ASCII Art - DAGAS (bold block style) -->
+  <!-- ASCII Art - DAGAS (bold block style, color cycling) -->
   <text class="ascii" x="20" y="94"> ██████╗  █████╗  ██████╗  █████╗ ███████╗</text>
   <text class="ascii" x="20" y="108"> ██╔══██╗██╔══██╗██╔════╝ ██╔══██╗██╔════╝</text>
   <text class="ascii" x="20" y="122"> ██║  ██║███████║██║  ███╗███████║███████╗</text>
@@ -106,15 +144,15 @@
   <text class="label" x="20" y="432">philosophy</text>
   <text class="value" x="140" y="432">build > talk · automate everything · aesthetics matter</text>
 
-  <!-- Color palette bar -->
+  <!-- Color palette bar with sync glow -->
   <rect class="palette-0" x="20" y="462" width="30" height="14" rx="2" stroke="#21262d" stroke-width="1" />
-  <rect class="palette-1" x="54" y="462" width="30" height="14" rx="2" />
-  <rect class="palette-2" x="88" y="462" width="30" height="14" rx="2" />
-  <rect class="palette-3" x="122" y="462" width="30" height="14" rx="2" />
+  <rect class="palette-1 pal-1" x="54" y="462" width="30" height="14" rx="2" />
+  <rect class="palette-2 pal-2" x="88" y="462" width="30" height="14" rx="2" />
+  <rect class="palette-3 pal-3" x="122" y="462" width="30" height="14" rx="2" />
   <rect class="palette-4" x="156" y="462" width="30" height="14" rx="2" />
-  <rect class="palette-5" x="190" y="462" width="30" height="14" rx="2" />
-  <rect class="palette-6" x="224" y="462" width="30" height="14" rx="2" />
-  <rect class="palette-7" x="258" y="462" width="30" height="14" rx="2" />
+  <rect class="palette-5 pal-4" x="190" y="462" width="30" height="14" rx="2" />
+  <rect class="palette-6 pal-5" x="224" y="462" width="30" height="14" rx="2" />
+  <rect class="palette-7 pal-6" x="258" y="462" width="30" height="14" rx="2" />
 
   <!-- Bottom prompt with blinking cursor -->
   <text class="prompt" x="20" y="510">❯</text>
