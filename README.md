@@ -6,9 +6,9 @@ building creative ad-tech at **[adnami](https://adnami.io)** · shipping side pr
 background in industrial design (polito), interaction design (kth + malmö uni)  
 now deep in typescript, creative coding, crypto, and AI agents
 
-<a href="https://github.com/fabio-cassisa">
+
   <img src="./terminal-card.svg" width="100%" alt="dagas@world neofetch — creative technologist, typescript, react, next.js, svelte, astro, gsap, supabase, ai agents, figma, blender, raspberry pi, flipper zero" />
-</a>
+
 
 ---
 
