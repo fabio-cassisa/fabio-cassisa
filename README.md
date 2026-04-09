@@ -6,27 +6,9 @@ building creative ad-tech at **[adnami](https://adnami.io)** · shipping side pr
 background in industrial design (polito), interaction design (kth + malmö uni)  
 now deep in typescript, creative coding, crypto, and AI agents
 
-```text
-> neofetch
-
-fabio@world
------------
-os            creative technologist
-location      torino · malmö · københavn
-company       adnami — high-impact ad formats
-
-languages     typescript · javascript · python · bash · sql · html · css
-frontend      react · next.js · svelte · astro · gsap · three.js · tailwind
-backend       node.js · supabase · postgresql · rest apis · vector databases
-infra         vercel · netlify · azure devops · github actions · vite
-ai / web3     llm tooling · mcp · ai agents · embeddings · solidity
-design        figma · adobe cc · after effects · blender · affinity · rhino
-hardware      raspberry pi · flipper zero · arduino · micro:bit
-past lives    c# · c++ · php · wordpress · d3.js · glsl
-
-exploring     on-chain agents · defi · rust · go · pkm systems
-philosophy    build > talk · automate everything · aesthetics matter
-```
+<a href="https://github.com/fabio-cassisa">
+  <img src="./terminal-card.svg" width="100%" alt="dagas@world neofetch — creative technologist, typescript, react, next.js, svelte, astro, gsap, supabase, ai agents, figma, blender, raspberry pi, flipper zero" />
+</a>
 
 ---
 
