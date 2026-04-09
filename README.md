@@ -33,7 +33,7 @@ philosophy    build > talk · automate everything · aesthetics matter
 #### now
 
 🏗️ creative technologist @ [adnami](https://adnami.io) — html5 creatives, gsap animations, svelte tooling  
-🧠 building **core** — local-first ai agent workbench · typescript · vector db · mcp  
+🧠 building **carlos core** — local-first ai agent workbench · typescript · vector db · mcp  
 🖥️ building a terminal-style portfolio — hacker aesthetics, interactive cli  
 🔧 refactoring & leveling up open source projects  
 📚 studying: cs, design systems, mathematics, philosophy
