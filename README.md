@@ -30,8 +30,8 @@ i like things that sit between disciplines. code that feels designed. design tha
 | project | what | stack |
 |---------|------|-------|
 | **[lia-tattoo](https://lia-tattoo.vercel.app/en)** | tattoo booking platform — live | next.js · supabase · typescript · tailwind |
+| **[net assets scraper](https://github.com/fabio-cassisa/ChromeAssetsScraper/releases/latest)** | brand asset extractor — logos, colors, fonts, videos from any site into a brand kit | javascript · chrome extension · manifest v3 |
 | **[lost satellites](https://lostsatellite-v1.netlify.app)** | design studio landing | react · gsap · css |
-| **[chrome assets scraper](https://github.com/fabio-cassisa/ChromeAssetsScraper)** | browser extension for creative devs | javascript · chrome apis |
 | **[4foodies](https://github.com/fabio-cassisa/4foodies24_landing)** | food brand landing page | next.js · tailwind · typescript |
 | **[webgi starter](https://github.com/fabio-cassisa/webgi_vanilla_starter)** | 3d product showcase | typescript · webgi sdk · vite |
 
