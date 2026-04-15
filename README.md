@@ -16,8 +16,7 @@ now deep in typescript, creative coding, crypto, and AI agents
 
 🏗️ creative technologist @ [adnami](https://adnami.io) — html5 creatives, gsap animations, svelte tooling  
 🧠 building **carlos core** — local-first ai agent workbench · typescript · vector db · mcp  
-🖥️ building a terminal-style portfolio — hacker aesthetics, interactive cli  
-🔧 refactoring & leveling up open source projects  
+🔧 polishing open source portfolio — codebase audits, accessibility, deployment  
 📚 studying: cs, design systems, mathematics, philosophy
 
 #### bg
@@ -29,11 +28,13 @@ i like things that sit between disciplines. code that feels designed. design tha
 
 | project | what | stack |
 |---------|------|-------|
-| **[lia-tattoo](https://lia-tattoo.vercel.app/en)** | tattoo booking platform — live | next.js · supabase · typescript · tailwind |
-| **[net assets scraper](https://github.com/fabio-cassisa/ChromeAssetsScraper/releases/latest)** | brand asset extractor — logos, colors, fonts, videos from any site into a brand kit | javascript · chrome extension · manifest v3 |
-| **[lost satellites](https://lostsatellite-v1.netlify.app)** | design studio landing | react · gsap · css |
-| **[4foodies](https://github.com/fabio-cassisa/4foodies24_landing)** | food brand landing page | next.js · tailwind · typescript |
-| **[webgi starter](https://github.com/fabio-cassisa/webgi_vanilla_starter)** | 3d product showcase | typescript · webgi sdk · vite |
+| **[net-assets-scraper](https://github.com/fabio-cassisa/net-assets-scraper)** | brand asset extractor — logos, colors, fonts, videos from any site | `javascript` · `chrome extension` · `manifest v3` |
+| **[dev-wellness](https://dev-wellness.vercel.app)** | developer wellness dashboard — timers, habits, mood, weekly stats | `react` · `redux toolkit` · `vite` · `vercel` |
+| **[lost-satellites](https://lostsatellite-v1.netlify.app)** | design studio landing with scroll-driven animations | `react` · `gsap` · `css` |
+| **[3d-product-viewer](https://github.com/fabio-cassisa/3d-product-viewer)** | scroll-driven 3d product showcase | `typescript` · `webgi sdk` · `vite` |
+| **[resonance](https://github.com/fabio-cassisa/resonance)** | hardware × software — micro:bit sensor bridge | `javascript` · `micro:bit` · `web serial` |
+| **[my-tasks](https://github.com/fabio-cassisa/my-tasks)** | minimal task manager with drag-to-reorder and themes | `react` · `zustand` · `vite` |
+| **[lia-tattoo](https://lia-tattoo.vercel.app/en)** | tattoo booking platform — live client project | `next.js` · `supabase` · `typescript` · `tailwind` |
 
 ```text
 > links
