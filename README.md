@@ -16,7 +16,7 @@ now deep in typescript, creative coding, crypto, and AI agents
 
 🏗️ creative technologist @ [adnami](https://adnami.io) — html5 creatives, gsap animations, ai agentic pipelines  
 🧠 building **carlos core** — local-first ai agent workbench · typescript · vector db · mcp  
-🌐 [**dagas.dev**](https://dagas.dev) — terminal-inspired portfolio, freshly shipped  
+🌐 [**dagas-portfolio.vercel.app**](https://dagas-portfolio.vercel.app) — terminal-inspired portfolio, freshly shipped  
 📚 studying: cs, design systems, mathematics, philosophy
 
 #### bg
@@ -39,7 +39,7 @@ i like things that sit between disciplines. code that feels designed. design tha
 ```text
 > links
 
-portfolio    dagas.dev
+portfolio    dagas-portfolio.vercel.app
 x            twitter.com/FabioCassisa
 linkedin     linkedin.com/in/fabiocassisa
 mastodon     mastodon.social/@Dagas
