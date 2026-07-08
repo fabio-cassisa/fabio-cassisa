@@ -35,6 +35,7 @@ i like things that sit between disciplines. code that feels designed. design tha
 | **[resonance](https://github.com/fabio-cassisa/resonance)** | hardware × software — micro:bit sensor bridge | `javascript` · `micro:bit` · `web serial` |
 | **[my-tasks](https://github.com/fabio-cassisa/my-tasks)** | minimal task manager with drag-to-reorder and themes | `react` · `zustand` · `vite` |
 | **[lia-tattoo](https://lia-tattoo.vercel.app/en)** | tattoo booking platform — live client project | `next.js` · `supabase` · `typescript` · `tailwind` |
+| **[studio-75](https://studio-75.vercel.app)** | music studio website — audio-reactive waveform, spotify integration | `astro` · `gsap` · `web audio api` · `spotify api` |
 
 ```text
 > links
